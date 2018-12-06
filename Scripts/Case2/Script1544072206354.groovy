@@ -25,3 +25,5 @@ WebUI.setText(findTestObject('Page_Create a Trello Account/input_Email_email'), 
 
 WebUI.setEncryptedText(findTestObject('Page_Create a Trello Account/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
 
+WebUI.closeBrowser()
+
