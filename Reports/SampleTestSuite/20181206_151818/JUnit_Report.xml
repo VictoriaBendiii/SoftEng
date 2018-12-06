@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleTestSuite" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="SampleTestSuite" tests="1" failures="0" errors="0" time="21" timestamp="2018-12-06 15:18:20" hostname="Victoria Bendi Buse - LAPTOP-0M84SJFT" id="Test Suites/SampleTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Victoria Bendi Buse\\Katalon Studio\\Demo\\Reports\\SampleTestSuite\\20181206_151818"/>
+         <property name="logFiles" value="C:\\Users\\Victoria Bendi Buse\\Katalon Studio\\Demo\\Reports\\SampleTestSuite\\20181206_151818\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Victoria Bendi Buse - LAPTOP-0M84SJFT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.43.209"/>
+         <property name="sessionId" value="44d1197bbbdc0f1fbf5a82721dd10438"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Case1" classname="Test Cases/Case1" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:18:21 - [TEST_CASE][PASSED] - Test Cases/Case1: Test Cases/Case1
+
+2018-12-06 15:18:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-06 15:18:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:18:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://trello.com/' successfully
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Navigate to 'https://trello.com/' successfully
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Trello/a_Log In' is clicked on
+
+2018-12-06 15:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Trello/a_Log In' is clicked on
+
+2018-12-06 15:18:38 - [TEST_STEP][PASSED] - setText: Text 'wrongemail@wrongemail.com' is set on object 'Object Repository/Page_Log in to Trello/input_(or username)_user'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Text 'wrongemail@wrongemail.com' is set on object 'Object Repository/Page_Log in to Trello/input_(or username)_user'
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in to Trello/no account for this email' is present
+
+2018-12-06 15:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in to Trello/no account for this email' is present
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in to Trello/wrong password' is present
+
+2018-12-06 15:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in to Trello/wrong password' is present
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - setText: Text 'historymakersdemo@gmail.com' is set on object 'Object Repository/Page_Log in to Trello/input_(or username)_user'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Text 'historymakersdemo@gmail.com' is set on object 'Object Repository/Page_Log in to Trello/input_(or username)_user'
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in to Trello/correct email but wrong password' is present
+
+2018-12-06 15:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-06 15:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in to Trello/correct email but wrong password' is present
+
+2018-12-06 15:18:40 - [TEST_STEP][PASSED] - setText: Text 'historymakersdemo@gmail.com' is set on object 'Object Repository/Page_Log in to Trello/input_(or username)_user'
+
+2018-12-06 15:18:41 - [MESSAGE][PASSED] - Text 'historymakersdemo@gmail.com' is set on object 'Object Repository/Page_Log in to Trello/input_(or username)_user'
+
+2018-12-06 15:18:41 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Trello/input_Password_password'
+
+2018-12-06 15:18:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Trello/input_concat(Don  t ask for co' is clicked on
+
+2018-12-06 15:18:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-12-06 15:18:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 15:18:20 - [TEST_SUITE][PASSED] - SampleTestSuite: Test Cases/Case1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
