@@ -17,13 +17,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.trello.com/')
 
-WebUI.click(findTestObject('Page_Trello/a_Sign Up'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Trello/a_Log In'))
 
-WebUI.setText(findTestObject('Page_Create a Trello Account/input_Name_name'), 'Bendi')
+WebUI.setText(findTestObject('Page_Log in to Trello/input_(or username)_user'), 'historymakersdemo@gmail.com')
 
-WebUI.setText(findTestObject('Page_Create a Trello Account/input_Email_email'), 'Bendi@gmail.com')
+WebUI.setEncryptedText(findTestObject('Page_Log in to Trello/input_Password_password'), 'qOndCK1TQ55GZJLGdY1eYw==')
 
-WebUI.setEncryptedText(findTestObject('Page_Create a Trello Account/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Log in to Trello/input_concat(Don  t ask for co'))
 
